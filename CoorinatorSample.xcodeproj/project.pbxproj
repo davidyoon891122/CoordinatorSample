@@ -32,6 +32,7 @@
 		ADD2BE4128A07BED00399876 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ADD2BE4528A08FEA00399876 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ADD2BE4728A0902200399876 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		ADD2BE4A28A094C000399876 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		ADC57D85289CFD03002502C8 = {
 			isa = PBXGroup;
 			children = (
+				ADD2BE4A28A094C000399876 /* README.md */,
 				ADC57D90289CFD03002502C8 /* CoorinatorSample */,
 				ADC57D8F289CFD03002502C8 /* Products */,
 			);
