@@ -24,7 +24,8 @@ final class LoginCoordinator: Coordinator {
 
     func start() {
         let loginViewController = LoginViewController()
-        loginViewController.view.backgroundColor = .brown
+        loginViewController.delegate = self
+
         self.navigationController.viewControllers = [loginViewController]
     }
 }

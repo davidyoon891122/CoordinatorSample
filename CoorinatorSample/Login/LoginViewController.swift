@@ -17,6 +17,7 @@ final class LoginViewController: UIViewController {
     var delegate: LoginViewControllerDelegate?
 
     override func viewDidLoad() {
+        view.backgroundColor = .systemIndigo
         super.viewDidLoad()
         let item = UIBarButtonItem(
             title: "Login",
@@ -34,6 +35,6 @@ final class LoginViewController: UIViewController {
 
     @objc
     func didTapLoginButton() {
-
+        self.delegate?.login()
     }
 }
